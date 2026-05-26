@@ -1,0 +1,20 @@
+scenario,task,target,model,reason
+joint_uae_malaysia,classification,target_trend,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['decrease' 'increase' 'stable']"")"
+joint_uae_malaysia,classification,target_subtype_driver,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got ['A' 'B' 'both' 'uncertain']"")"
+joint_uae_malaysia,classification,target_increase_binary,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['increase' 'not_increase']"")"
+malaysia_only,classification,target_trend,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['decrease' 'increase' 'stable']"")"
+malaysia_only,classification,target_subtype_driver,logistic_regression,"ValueError(""y_true contains values {'both', 'B'} not belonging to the passed labels ['A' 'uncertain']."")"
+malaysia_only,classification,target_subtype_driver,random_forest,"ValueError(""y_true contains values {'both', 'B'} not belonging to the passed labels ['A' 'uncertain']."")"
+malaysia_only,classification,target_subtype_driver,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['A' 'uncertain']"")"
+malaysia_only,classification,target_subtype_driver,lightgbm,"ValueError(""y_true contains values {'both', 'B'} not belonging to the passed labels ['A' 'uncertain']."")"
+malaysia_only,classification,target_increase_binary,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['increase' 'not_increase']"")"
+transfer_malaysia,classification,target_subtype_driver,all,skipped in transfer Malaysia because subtype-driver transfer classification is exploratory and slow; country-only and joint subtype-driver models are available
+transfer_uae,classification,target_trend,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['decrease' 'increase' 'stable']"")"
+transfer_uae,classification,target_subtype_driver,all,skipped in transfer scenarios to keep unattended resume runtime feasible; subtype-driver models are trained in country-only and joint scenarios
+transfer_uae,classification,target_increase_binary,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['increase' 'not_increase']"")"
+uae_only,classification,target_trend,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['decrease' 'increase' 'stable']"")"
+uae_only,classification,target_subtype_driver,logistic_regression,"ValueError(""y_true contains values {'both'} not belonging to the passed labels ['A' 'B' 'uncertain']."")"
+uae_only,classification,target_subtype_driver,random_forest,"ValueError(""y_true contains values {'both'} not belonging to the passed labels ['A' 'B' 'uncertain']."")"
+uae_only,classification,target_subtype_driver,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['A' 'B' 'uncertain']"")"
+transfer_malaysia,classification,target_trend,all,not used as transfer Malaysia app classifier in this targeted run; train separately if a 3-class transfer trend model is required
+uae_only,classification,target_increase_binary,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['increase' 'not_increase']"")"

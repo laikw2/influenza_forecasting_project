@@ -1,0 +1,7 @@
+{
+  "best_cv_score": 0.03439144414273455,
+  "best_params": {
+    "model__alpha": 0.01,
+    "model__l1_ratio": 0.5
+  }
+}

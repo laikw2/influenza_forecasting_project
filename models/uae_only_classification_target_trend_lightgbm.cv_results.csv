@@ -1,0 +1,2 @@
+mean_cv_score,model__learning_rate,model__min_child_samples,model__n_estimators,model__num_leaves
+1.3077643963235188,0.05,20,100,15

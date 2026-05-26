@@ -1,0 +1,10 @@
+{
+  "best_cv_score": 9.668848299151009,
+  "best_params": {
+    "model__colsample_bytree": 0.8,
+    "model__learning_rate": 0.05,
+    "model__max_depth": 3,
+    "model__n_estimators": 100,
+    "model__subsample": 0.8
+  }
+}

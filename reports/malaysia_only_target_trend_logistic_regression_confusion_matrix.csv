@@ -1,0 +1,4 @@
+,pred_decrease,pred_increase,pred_stable
+true_decrease,62,0,4
+true_increase,66,0,8
+true_stable,87,0,8

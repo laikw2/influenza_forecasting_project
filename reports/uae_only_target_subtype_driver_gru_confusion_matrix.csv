@@ -1,0 +1,5 @@
+,pred_A,pred_B,pred_both,pred_uncertain
+true_A,17,4,0,1
+true_B,3,2,0,2
+true_both,2,1,0,0
+true_uncertain,10,2,0,10

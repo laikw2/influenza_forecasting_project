@@ -1,0 +1,4 @@
+scenario,task,target,model,reason
+transfer_uae,classification,target_trend,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['decrease' 'increase' 'stable']"")"
+transfer_uae,classification,target_subtype_driver,all,skipped in transfer scenarios to keep unattended resume runtime feasible; subtype-driver models are trained in country-only and joint scenarios
+transfer_uae,classification,target_increase_binary,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['increase' 'not_increase']"")"

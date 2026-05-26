@@ -1,0 +1,7 @@
+{
+  "best_cv_score": 1.1868823749460864,
+  "best_params": {
+    "model__C": 1.0,
+    "model__kernel": "rbf"
+  }
+}

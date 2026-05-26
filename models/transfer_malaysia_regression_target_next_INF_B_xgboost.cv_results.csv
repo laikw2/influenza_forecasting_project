@@ -1,0 +1,2 @@
+mean_cv_score,model__colsample_bytree,model__learning_rate,model__max_depth,model__n_estimators,model__subsample
+3.6333257646805603,0.8,0.05,3,100,0.8

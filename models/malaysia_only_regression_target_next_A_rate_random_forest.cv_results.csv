@@ -1,0 +1,3 @@
+mean_cv_score,model__max_depth,model__min_samples_leaf,model__n_estimators
+0.0640735446505691,4.0,3,100
+0.06642508131113682,,3,100

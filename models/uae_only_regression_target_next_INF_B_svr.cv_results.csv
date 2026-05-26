@@ -1,0 +1,3 @@
+mean_cv_score,model__C,model__epsilon,model__kernel
+26.44962375787739,1.0,0.1,rbf
+25.176234876716066,10.0,0.1,rbf

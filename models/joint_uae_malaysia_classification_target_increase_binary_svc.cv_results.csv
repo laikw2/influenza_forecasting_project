@@ -1,0 +1,3 @@
+mean_cv_score,model__C,model__kernel
+0.48652890847120883,0.5,rbf
+0.5019444328559849,1.0,rbf

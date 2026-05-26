@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+joblib
+streamlit
+xgboost
+lightgbm
+statsmodels
+prophet
+torch

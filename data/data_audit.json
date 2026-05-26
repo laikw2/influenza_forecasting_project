@@ -1,0 +1,37 @@
+{
+  "raw_file": "C:\\Users\\LAI\\Documents\\Codex\\influenza dataset\\VIW_FNT.csv",
+  "raw_rows_for_target_countries": 2234,
+  "target_countries": {
+    "ARE": "United Arab Emirates",
+    "MYS": "Malaysia"
+  },
+  "note": "FluNet values are laboratory surveillance reports, not national incidence counts.",
+  "countries": {
+    "ARE": {
+      "country_name": "United Arab Emirates",
+      "first_week": "2019-12-30",
+      "last_week": "2026-05-11",
+      "calendar_weeks": 333,
+      "reported_weeks": 330,
+      "missing_calendar_weeks": 3,
+      "source_rows_by_type": {
+        "SENTINEL": 330,
+        "NONSENTINEL": 157
+      }
+    },
+    "MYS": {
+      "country_name": "Malaysia",
+      "first_week": "1996-12-23",
+      "last_week": "2026-05-04",
+      "calendar_weeks": 1533,
+      "reported_weeks": 1484,
+      "missing_calendar_weeks": 49,
+      "source_rows_by_type": {
+        "NOTDEFINED": 1361,
+        "NONSENTINEL": 263,
+        "SENTINEL": 123
+      }
+    }
+  },
+  "transfer_country_count": 23
+}

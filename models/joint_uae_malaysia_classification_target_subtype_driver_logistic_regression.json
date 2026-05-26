@@ -1,0 +1,6 @@
+{
+  "best_cv_score": 1.3988644206996046,
+  "best_params": {
+    "model__C": 0.5
+  }
+}

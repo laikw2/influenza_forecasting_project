@@ -1,0 +1,11 @@
+{
+  "xgboost": true,
+  "lightgbm": true,
+  "statsmodels_sarimax": true,
+  "prophet": true,
+  "torch": true,
+  "tensorflow": false,
+  "sarimax_baseline": "enabled",
+  "prophet_baseline": "enabled",
+  "neural_models": "enabled with PyTorch LSTM, GRU, and temporal CNN"
+}

@@ -1,0 +1,2 @@
+scenario,task,target,model,reason
+transfer_malaysia,classification,target_trend,all,not used as transfer Malaysia app classifier in this targeted run; train separately if a 3-class transfer trend model is required

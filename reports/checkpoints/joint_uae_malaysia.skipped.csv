@@ -1,0 +1,4 @@
+scenario,task,target,model,reason
+joint_uae_malaysia,classification,target_trend,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['decrease' 'increase' 'stable']"")"
+joint_uae_malaysia,classification,target_subtype_driver,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got ['A' 'B' 'both' 'uncertain']"")"
+joint_uae_malaysia,classification,target_increase_binary,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['increase' 'not_increase']"")"

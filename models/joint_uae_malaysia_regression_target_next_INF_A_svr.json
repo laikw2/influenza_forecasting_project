@@ -1,0 +1,8 @@
+{
+  "best_cv_score": 7.895279315223611,
+  "best_params": {
+    "model__C": 1.0,
+    "model__epsilon": 0.1,
+    "model__kernel": "rbf"
+  }
+}

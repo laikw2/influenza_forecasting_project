@@ -1,0 +1,7 @@
+scenario,task,target,model,reason
+uae_only,classification,target_trend,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['decrease' 'increase' 'stable']"")"
+uae_only,classification,target_subtype_driver,logistic_regression,"ValueError(""y_true contains values {'both'} not belonging to the passed labels ['A' 'B' 'uncertain']."")"
+uae_only,classification,target_subtype_driver,random_forest,"ValueError(""y_true contains values {'both'} not belonging to the passed labels ['A' 'B' 'uncertain']."")"
+uae_only,classification,target_subtype_driver,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got ['A' 'B' 'uncertain']"")"
+uae_only,classification,target_subtype_driver,lightgbm,"ValueError(""y_true contains values {'both'} not belonging to the passed labels ['A' 'B' 'uncertain']."")"
+uae_only,classification,target_increase_binary,xgboost,"ValueError(""Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['increase' 'not_increase']"")"

@@ -1,0 +1,8 @@
+{
+  "best_cv_score": 9.430517838035183,
+  "best_params": {
+    "model__max_depth": null,
+    "model__min_samples_leaf": 3,
+    "model__n_estimators": 100
+  }
+}
